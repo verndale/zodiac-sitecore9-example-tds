@@ -1,0 +1,9 @@
+﻿@inherits Constellation.Foundation.Mvc.EditorCompatibleView<IEnumerable<Website.Areas.ExampleSite.Models.Widgets.BioCardModel>>
+<div class="row">
+	@foreach (var bio in Model)
+	{
+	<div class="col-sm-4">
+		@{ Html.RenderPartial("~/Areas/ExampleSite/Views/Widgets/BioCard.cshtml", bio); }
+	</div>
+	}
+</div>

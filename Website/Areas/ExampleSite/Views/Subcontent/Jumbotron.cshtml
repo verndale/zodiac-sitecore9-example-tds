@@ -1,0 +1,21 @@
+﻿@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Website.Areas.ExampleSite.Models.Subcontent.JumbotronModel>
+@{
+	var style = string.Empty;
+
+	if (!string.IsNullOrEmpty(Model.BackgroundImage))
+	{
+		style = $"style=\"background-image:({@Model.BackgroundImage})\"";
+	}
+
+}
+
+
+<div class="jumbotron jumbotron-fluid" @style>
+	<div class="container">
+		<h1 class="display-4">@Model.Heading</h1>
+		<p class="lead">@Model.Lead</p>
+		<hr class="my-4">
+		@Model.Copy
+		@Model.ButtonLink
+	</div>
+</div>

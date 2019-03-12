@@ -1,0 +1,18 @@
+﻿@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Website.Areas.ExampleSite.Models.Widgets.CallToActionModel>
+
+<div class="card">
+	@Model.Thumbnail
+	<div class="card-body">
+		<h5 class="card-title">@Model.Heading</h5>
+		<p class="card-text">@Model.Summary</p>
+		
+		@if (this.IsEditing)
+		{
+			@Model.Link
+		}
+		else
+		{
+			<a href="@Model.Link" target="@Model.LinkTarget" class="btn btn-primary">@Model.LinkText</a>
+		}
+	</div>
+</div>

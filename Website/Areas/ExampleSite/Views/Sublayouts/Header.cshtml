@@ -1,0 +1,15 @@
+﻿<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<div class="container">
+		<a class="navbar-brand" href="/">Example Brand</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+	    <div class="collapse navbar-collapse" id="navbarText">
+	        <div class="navbar-nav mr-auto">
+	            @Html.Sitecore().Placeholder("HeaderPrimary")
+	            @Html.Sitecore().Placeholder("HeaderUtility")
+	        </div>
+	        @Html.Sitecore().Placeholder("HeaderSearch")
+	    </div>
+	</div>
+</nav>

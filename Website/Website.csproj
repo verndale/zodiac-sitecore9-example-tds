@@ -323,6 +323,18 @@
     <Content Include="App_Config\Include\Project\_Put_Tenant_and_Site_Config_Patches_Here.txt" />
     <Content Include="App_Config\Include\Website\_Put_System_Wide_Config_Patches_Here.txt" />
     <Content Include="App_Data\packages\PutPackagesHere.txt" />
+    <Content Include="Areas\ExampleSite\Content\bootstrap-grid.css" />
+    <Content Include="Areas\ExampleSite\Content\bootstrap-grid.min.css" />
+    <Content Include="Areas\ExampleSite\Content\bootstrap-reboot.css" />
+    <Content Include="Areas\ExampleSite\Content\bootstrap-reboot.min.css" />
+    <Content Include="Areas\ExampleSite\Content\bootstrap.css" />
+    <Content Include="Areas\ExampleSite\Content\bootstrap.min.css" />
+    <Content Include="Areas\ExampleSite\Scripts\bootstrap.bundle.js" />
+    <Content Include="Areas\ExampleSite\Scripts\bootstrap.bundle.min.js" />
+    <Content Include="Areas\ExampleSite\Scripts\bootstrap.js" />
+    <Content Include="Areas\ExampleSite\Scripts\bootstrap.min.js" />
+    <Content Include="Areas\ExampleSite\Scripts\jquery-3.3.1.min.js" />
+    <Content Include="Areas\ExampleSite\Scripts\popper.min.js" />
     <Content Include="Areas\_Put_Tenant_and_Site_Presentation_Components_Here.txt" />
     <Content Include="Zodiac.License.txt" />
     <Content Include="Constellation.License.txt" />
@@ -331,6 +343,46 @@
   <ItemGroup>
     <Compile Include="App_Start\RazorGeneratorMvcStart.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\ExampleSite\Controllers\ContextContent\CopyController.cs" />
+    <Compile Include="Areas\ExampleSite\Controllers\ContextContent\HeadingController.cs" />
+    <Compile Include="Areas\ExampleSite\Controllers\ContextContent\PressReleaseController.cs" />
+    <Compile Include="Areas\ExampleSite\Controllers\Navigation\BioCardListController.cs" />
+    <Compile Include="Areas\ExampleSite\Controllers\Navigation\BreadcrumbsController.cs" />
+    <Compile Include="Areas\ExampleSite\Controllers\Navigation\FooterNavigationController.cs" />
+    <Compile Include="Areas\ExampleSite\Controllers\Navigation\PaginatedPressReleaseListController.cs" />
+    <Compile Include="Areas\ExampleSite\Controllers\Navigation\PrimaryNavigationController.cs" />
+    <Compile Include="Areas\ExampleSite\Controllers\Navigation\SearchFormController.cs" />
+    <Compile Include="Areas\ExampleSite\Controllers\Navigation\SectionNavigationController.cs" />
+    <Compile Include="Areas\ExampleSite\Controllers\Navigation\TextSearchResultsController.cs" />
+    <Compile Include="Areas\ExampleSite\Controllers\Navigation\UtilityNavigationController.cs" />
+    <Compile Include="Areas\ExampleSite\Controllers\Subcontent\ContentSectionController.cs" />
+    <Compile Include="Areas\ExampleSite\Controllers\Subcontent\JumbotronController.cs" />
+    <Compile Include="Areas\ExampleSite\Controllers\Subcontent\RelatedLinksController.cs" />
+    <Compile Include="Areas\ExampleSite\Controllers\Widgets\BioCardController.cs" />
+    <Compile Include="Areas\ExampleSite\Controllers\Widgets\CallToActionController.cs" />
+    <Compile Include="Areas\ExampleSite\Controllers\Widgets\RecentNewsController.cs" />
+    <Compile Include="Areas\ExampleSite\ExampleAreaRegistration.cs" />
+    <Compile Include="Areas\ExampleSite\IndexFields\AggregateTextIndexField.cs" />
+    <Compile Include="Areas\ExampleSite\ModelBuilders\PrimaryNavigationModelBuilder.cs" />
+    <Compile Include="Areas\ExampleSite\Models\ContextContent\BioModel.cs" />
+    <Compile Include="Areas\ExampleSite\Models\ContextContent\CopyModel.cs" />
+    <Compile Include="Areas\ExampleSite\Models\ContextContent\HeadingModel.cs" />
+    <Compile Include="Areas\ExampleSite\Models\ContextContent\PressReleaseModel.cs" />
+    <Compile Include="Areas\ExampleSite\Models\Labels\PressReleaseLabels.cs" />
+    <Compile Include="Areas\ExampleSite\Models\Labels\SearchLabels.cs" />
+    <Compile Include="Areas\ExampleSite\Models\Navigation\PaginatedPressReleaseListModel.cs" />
+    <Compile Include="Areas\ExampleSite\Models\Navigation\PaginatedTextSearchResultsModel.cs" />
+    <Compile Include="Areas\ExampleSite\Models\Navigation\TextSearchResultModel.cs" />
+    <Compile Include="Areas\ExampleSite\Models\Subcontent\ContentSectionModel.cs" />
+    <Compile Include="Areas\ExampleSite\Models\Subcontent\JumbotronModel.cs" />
+    <Compile Include="Areas\ExampleSite\Models\Subcontent\RelatedLinksModel.cs" />
+    <Compile Include="Areas\ExampleSite\Models\Widgets\BannerModel.cs" />
+    <Compile Include="Areas\ExampleSite\Models\Widgets\BioCardModel.cs" />
+    <Compile Include="Areas\ExampleSite\Models\Widgets\CallToActionModel.cs" />
+    <Compile Include="Areas\ExampleSite\Models\Widgets\PressReleaseCardModel.cs" />
+    <Compile Include="Areas\ExampleSite\Repositories\BioListRepository.cs" />
+    <Compile Include="Areas\ExampleSite\Repositories\PaginatedPressReleaseListRepository.cs" />
+    <Compile Include="Areas\ExampleSite\Repositories\TextSearchRepository.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -403,6 +455,44 @@
     <Content Include="App_Data\packages\Constellation-Feature-PageTagging-SitemapXml-Items.zip" />
     <Content Include="App_Data\packages\Constellation-Feature-UrlFriendlyPageNames-Items.zip" />
     <Content Include="App_Data\packages\Constellation-Feature-Redirects-Items.zip" />
+    <Content Include="Areas\ExampleSite\Content\bootstrap-grid.css.map" />
+    <Content Include="Areas\ExampleSite\Content\bootstrap-grid.min.css.map" />
+    <Content Include="Areas\ExampleSite\Content\bootstrap-reboot.css.map" />
+    <Content Include="Areas\ExampleSite\Content\bootstrap-reboot.min.css.map" />
+    <Content Include="Areas\ExampleSite\Content\bootstrap.css.map" />
+    <Content Include="Areas\ExampleSite\Content\bootstrap.min.css.map" />
+    <Content Include="Areas\ExampleSite\Scripts\bootstrap.bundle.js.map" />
+    <Content Include="Areas\ExampleSite\Scripts\bootstrap.bundle.min.js.map" />
+    <Content Include="Areas\ExampleSite\Scripts\bootstrap.js.map" />
+    <Content Include="Areas\ExampleSite\Scripts\bootstrap.min.js.map" />
+    <Content Include="Areas\ExampleSite\Scripts\jquery-3.3.1.min.map" />
+    <Content Include="Areas\ExampleSite\Views\ContextContent\Copy.cshtml" />
+    <Content Include="Areas\ExampleSite\Views\ContextContent\Heading.cshtml" />
+    <Content Include="Areas\ExampleSite\Views\ContextContent\PressRelease.cshtml" />
+    <Content Include="Areas\ExampleSite\Views\Navigation\BioCardList.cshtml" />
+    <Content Include="Areas\ExampleSite\Views\Navigation\Breadcrumbs.cshtml" />
+    <Content Include="Areas\ExampleSite\Views\Navigation\FooterLinkList.cshtml" />
+    <Content Include="Areas\ExampleSite\Views\Navigation\FooterSocialLinks.cshtml" />
+    <Content Include="Areas\ExampleSite\Views\Navigation\PaginatedPressReleaseList.cshtml" />
+    <Content Include="Areas\ExampleSite\Views\Navigation\PrimaryNavigation.cshtml" />
+    <Content Include="Areas\ExampleSite\Views\Navigation\SearchForm.cshtml" />
+    <Content Include="Areas\ExampleSite\Views\Navigation\SectionNavigation.cshtml" />
+    <Content Include="Areas\ExampleSite\Views\Navigation\TextSearchResults.cshtml" />
+    <Content Include="Areas\ExampleSite\Views\Navigation\UtilityNavigation.cshtml" />
+    <Content Include="Areas\ExampleSite\Views\Shared\ExampleSiteLayout.cshtml" />
+    <Content Include="Areas\ExampleSite\Views\Shared\JsonLayout.cshtml" />
+    <Content Include="Areas\ExampleSite\Views\Subcontent\ContentSection.cshtml" />
+    <Content Include="Areas\ExampleSite\Views\Subcontent\Jumbotron.cshtml" />
+    <Content Include="Areas\ExampleSite\Views\Subcontent\RelatedLinks.cshtml" />
+    <Content Include="Areas\ExampleSite\Views\Sublayouts\Footer.cshtml" />
+    <Content Include="Areas\ExampleSite\Views\Sublayouts\FullWidthRow.cshtml" />
+    <Content Include="Areas\ExampleSite\Views\Sublayouts\Header.cshtml" />
+    <Content Include="Areas\ExampleSite\Views\Sublayouts\TwoColumnRow-WideLeft.cshtml" />
+    <Content Include="Areas\ExampleSite\Views\Sublayouts\TwoColumnRow-WideRight.cshtml" />
+    <Content Include="Areas\ExampleSite\Views\web.config" />
+    <Content Include="Areas\ExampleSite\Views\Widgets\Banner.cshtml" />
+    <Content Include="Areas\ExampleSite\Views\Widgets\BioCard.cshtml" />
+    <Content Include="Areas\ExampleSite\Views\Widgets\CallToAction.cshtml" />
     <None Include="packages.config" />
     <Content Include="Web.config" />
     <None Include="Properties\PublishProfiles\Debug.pubxml" />
@@ -417,9 +507,16 @@
   <ItemGroup>
     <Folder Include="App_Config\Include\Feature\" />
     <Folder Include="App_Config\Include\Foundation\" />
+    <Folder Include="Areas\ExampleSite\Views\NickFacts\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
     <Folder Include="Repositories\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Feature.Labels\Feature.Labels.csproj">
+      <Project>{74f50da4-2216-4f95-811a-361709ce5c1c}</Project>
+      <Name>Feature.Labels</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

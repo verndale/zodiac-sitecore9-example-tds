@@ -1,0 +1,20 @@
+﻿@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Website.Areas.ExampleSite.Models.Widgets.BioCardModel>
+<div class="card">
+
+	@if (this.IsEditing)
+	{
+		<img class="card-img-top" src="@Model.Portrait" />
+	}
+	else if (!string.IsNullOrEmpty(Model.Portrait))
+	{
+		<img class="card-img-top" src="@Model.Portrait" alt="@Model.FullName - @Model.JobTitle" />
+	}
+
+	<div class="card-body">
+		<h5 class="card-title">@Model.FullName - @Model.JobTitle</h5>
+		<p class="card-text">
+			@Model.Summary
+		</p>
+		<a href="@Model.Url">Read More</a>
+	</div>
+</div>

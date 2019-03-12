@@ -1,0 +1,14 @@
+﻿@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Constellation.Feature.Navigation.Models.NavigationMenu>
+
+@foreach (var link in Model.ChildLinks)
+{
+	if (link.IsActive)
+	{
+		<a class="nav-item nav-link active" href="@link.Link">@link.GetBestLinkText() <span class="sr-only">(current)</span></a>
+	}
+	else
+	{
+		<a class="nav-item nav-link" href="@link.Link">@link.GetBestLinkText() </a>
+	}
+}
+

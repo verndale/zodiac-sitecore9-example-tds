@@ -1,0 +1,12 @@
+﻿@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Constellation.Feature.Navigation.Models.NavigationMenu>
+<div class="nav-item dropdown">
+	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		@Model.DisplayName
+	</a>
+	<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+		@foreach (var link in Model.ChildLinks)
+		{
+			<a class="dropdown-item" href="@link.Link">@link.GetBestLinkText()</a>
+		}
+	</div>
+</div>

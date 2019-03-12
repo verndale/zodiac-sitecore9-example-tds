@@ -1,0 +1,14 @@
+﻿@using Constellation.Feature.Navigation.Models
+@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Constellation.Feature.Navigation.Models.NavigationMenu>
+<h5>@Model.DisplayName</h5>
+<ul class="nav flex-column">
+	@foreach (NavigationLink link in Model.ChildLinks)
+	{
+		if (link is ImageNavigationLink icon)
+		{
+		<li class="nav-item">
+			<a class="nav-link" href="@icon.Link" target="@icon.LinkTarget"><img src="@icon.Image" alt="@icon.ImageAlt"/></a>
+		</li>
+		}
+	}
+</ul>

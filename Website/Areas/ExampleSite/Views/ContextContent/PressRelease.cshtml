@@ -1,0 +1,14 @@
+﻿@using Feature.Labels
+@using Website.Areas.ExampleSite.Models.Labels
+@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Website.Areas.ExampleSite.Models.ContextContent.PressReleaseModel>
+@{
+	var labels = LabelRepository.GetLabelsForView<PressReleaseLabels>();
+}
+
+
+<h1>@Model.Heading</h1>
+<h4>@labels.ReleasedOn @Model.ReleaseDate.ToShortDateString()<br />
+	@labels.Author @Model.Author</h4>
+<div class="rtefield">
+	@Model.Copy
+</div>

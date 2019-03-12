@@ -1,0 +1,11 @@
+﻿@using Feature.Labels
+@using Website.Areas.ExampleSite.Models.Labels
+@model string
+@{
+    var labels = LabelRepository.GetLabelsForView<SearchLabels>();
+}
+
+<form class="form-inline" method="post" action="@Model">
+    <input class="form-control mr-sm-2" type="search" name="text" placeholder="@labels.TextPlaceholder" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">@labels.SubmitButton</button>
+</form>

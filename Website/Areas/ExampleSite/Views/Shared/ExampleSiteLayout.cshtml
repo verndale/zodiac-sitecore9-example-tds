@@ -1,0 +1,36 @@
+﻿@using System.Reflection
+@using Constellation.Feature.PageTagging.Models
+@using Constellation.Foundation.ModelMapping
+@model RenderingModel
+@{
+	Layout = null;
+	var viewModel = Model.Item.MapToNew<PageMetadata>();
+	var version = HttpContext.Current.Application.GetType().Assembly.GetName().Version.ToString();
+	// Use version for cache-busting of asset files
+}
+<!DOCTYPE html>
+<html lang="@Model.Item.Language.Name">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="/areas/examplesite/content/bootstrap.min.css?v=@version">
+
+	<title>@viewModel.BrowserTitle</title>
+	@Html.Sitecore().Placeholder("HtmlHead")
+</head>
+<body>
+@Html.Sitecore().Placeholder("Header")
+<div class="container">
+	<!-- Content here -->
+	@Html.Sitecore().Placeholder("Rows")
+</div>
+@Html.Sitecore().Placeholder("Footer")
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="/areas/examplesite/scripts/jquery-3.3.1.min.js?v=@version"></script>
+<script src="/areas/examplesite/scripts/popper.min.js?v=@version"></script>
+<script src="/areas/examplesite/scripts/bootstrap.min.js?v=@version"></script>
+</body>
+</html>

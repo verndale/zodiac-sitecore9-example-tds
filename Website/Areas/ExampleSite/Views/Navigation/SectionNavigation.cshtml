@@ -1,0 +1,41 @@
+﻿@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Constellation.Feature.Navigation.Models.BranchNode>
+<div>
+	<h4>
+		<a href="@Model.Url">@Model.GetBestLinkText()</a>
+	</h4>
+	<ul class="nav flex-column">
+		@foreach (var node in Model.Children)
+		{
+			<li class="nav-item">
+				@if (node.IsActive)
+				{
+					<a class="nav-link active" href="@node.Url">@node.GetBestLinkText()</a>
+
+					if (node.Children?.Count > 0)
+					{
+						<ul class="nav flex-column">
+							@foreach (var subnode in node.Children)
+							{
+								<li class="nav-item">
+									@if (subnode.IsActive)
+									{
+										<a class="nav-link active" href="@subnode.Url">@subnode.GetBestLinkText()</a>
+									}
+									else
+									{
+										<a class="nav-link" href="@subnode.Url">@subnode.GetBestLinkText()</a>
+									}
+								</li>
+							}
+						</ul>
+					}
+
+				}
+				else
+				{
+					<a class="nav-link" href="@node.Url">@node.GetBestLinkText()</a>
+				}
+			</li>
+		}
+	</ul>
+</div>

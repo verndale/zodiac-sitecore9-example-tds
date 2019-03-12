@@ -1,0 +1,59 @@
+﻿@using Feature.Labels
+@using Website.Areas.ExampleSite.Models.Labels
+@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Website.Areas.ExampleSite.Models.Navigation.PaginatedTextSearchResultsModel>
+@{
+	var labels = LabelRepository.GetLabelsForView<SearchLabels>();
+}
+
+<div class="row">
+
+	@if (Model.List?.Count > 0)
+	{
+		<div class="col-sm-12">
+			<div>
+				@labels.TotalResults @Model.TotalResults
+			</div>
+			<div class="list-group">
+				@foreach (var item in Model.List)
+				{
+					<a href="@item.FriendlyUrl" class="list-group-item list-group-item-action flex-column align-items-start">
+						<div class="d-flex w-100 justify-content-between">
+							<h5 class="mb-1">@item.Heading</h5>
+						</div>
+						<p class="mb-1">
+							@item.Summary
+						</p>
+					</a>
+				}
+			</div>
+		</div>
+		<div class="col-sm-12 align-content-center">
+			<nav id="pagination" aria-label="List Navigation">
+				<ul class="pagination">
+					@for (int i = 1; i <= Model.PageCount; i++)
+					{
+						if (i == Model.Page)
+						{
+							<li class="page-item active">
+								<a class="page-link" href="#">@i <span class="sr-only">(current)</span></a>
+							</li>
+						}
+						else
+						{
+							<li class="page-item">
+								<a class="page-link" href="@Model.ListHostUrl?text=@Model.Text&page=@i">@i</a>
+							</li>
+						}
+					}
+				</ul>
+			</nav>
+			<div class="btn btn-lg" data-source="@Model.ListHostUrl&json=true"><a>@labels.LoadMore</a></div>
+		</div>
+	}
+	else
+	{
+		<div>
+			@labels.NoResultsFound
+		</div>
+	}
+</div>

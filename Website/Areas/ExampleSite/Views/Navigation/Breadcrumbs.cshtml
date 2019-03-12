@@ -1,0 +1,15 @@
+﻿@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Constellation.Feature.Navigation.Models.Breadcrumb[]>
+<nav aria-label="breadcrumb">
+	<ol class="breadcrumb">
+		@foreach (var breadcrumb in Model)
+		{
+			if (breadcrumb.IsContextItem)
+			{
+				<li class="breadcrumb-item active" aria-current="page">@breadcrumb.GetBestLinkText()</li>
+				continue;
+			}
+
+			<li class="breadcrumb-item"><a href="@breadcrumb.Url">@breadcrumb.GetBestLinkText()</a></li>
+		}
+	</ol>
+</nav>

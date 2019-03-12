@@ -1,0 +1,19 @@
+﻿@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Website.Areas.ExampleSite.Models.Subcontent.RelatedLinksModel>
+<div>
+	<h4>
+		@Model.Heading
+	</h4>
+	@if (this.IsEditing && Model.Links.Count == 0)
+	{
+		<p>No Related Links selected. Use the Edit button to add some!</p>
+	}
+	else
+	{
+		<ul class="nav flex-column">
+			@foreach (var link in Model.Links)
+			{
+				<a class="nav-link" href="@link.Url">@link.GetBestLinkText()</a>
+			}
+		</ul>
+	}
+</div>
