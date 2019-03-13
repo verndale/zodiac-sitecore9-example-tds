@@ -1,0 +1,112 @@
+----item----
+version: 1
+id: {BC4D8C57-1B2E-4B9F-A67E-616B394A8E79}
+database: master
+path: /sitecore/templates/Project/Site/ExampleSite/Pages/Press Release/__Standard Values
+parent: {0A911D86-82DB-42E8-8F7B-3B75EB47F5D5}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {0A911D86-82DB-42E8-8F7B-3B75EB47F5D5}
+templatekey: Press Release
+created: 20181005T181510Z
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 3176
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{5A69F7E7-CFA2-4243-9FD2-0A85A1CFF364}"><r id="{BADAAFC1-95DA-4604-BEF0-35CE270D3733}" ph="/Rows/Content-{AFFD2BC1-8F0E-44F4-B6C8-7AA309E70A63}-0" uid="{F372A2AD-B319-4C0E-8AEC-626FA1D06865}" /><r id="{79D75885-A671-426E-BBEA-90C074AFF139}" ph="/Rows/Content-{AFFD2BC1-8F0E-44F4-B6C8-7AA309E70A63}-0" uid="{25F85DAB-7262-4B23-8474-B132942F2204}" /><r id="{685E949E-6DC0-4533-B189-F57C28747D0E}" ph="/Rows/Content-{B36C8D16-1093-4B1E-A7AE-3BC41435527E}-0" uid="{17B9E8D4-348C-4F9B-A167-AE6CA78E46CF}" /><r id="{A34439C3-B815-4394-AC8C-D1037A2F7150}" ph="Rows" uid="{B36C8D16-1093-4B1E-A7AE-3BC41435527E}" /><r id="{A19AB6C6-D216-4C0E-8889-39E0DC540748}" ph="Rows" uid="{AFFD2BC1-8F0E-44F4-B6C8-7AA309E70A63}" /><r cac="1" ds="{43AB3564-BF20-4E86-969A-593C659A188E}" id="{FF3C4CD6-31F9-4E76-845F-312E0ABCE7C1}" par="" ph="HtmlHead" uid="{9E4BBA32-2753-4D80-BD8F-E5F50EF432C8}" vbd="1" /><r id="{76B07B12-285B-485F-BBA3-581564A38CF3}" ph="HtmlHead" uid="{D44F14DC-DADE-4618-A701-7025B54225C9}" /><r id="{757AAA30-6660-4C03-B5B9-B18431D59634}" ph="HtmlHead" uid="{7B67B008-0CC1-4242-94D5-DE9FCD0CB207}" /><r id="{B6035EE8-BBC2-4F29-A235-95CA80B03035}" ph="HtmlHead" uid="{30E42248-FF1F-4215-9372-77D3222FFD39}" /><r cac="1" ds="{43AB3564-BF20-4E86-969A-593C659A188E}" id="{5A1167EC-72E6-4B63-878B-0D3DBF026A21}" par="" ph="Header" uid="{2CB99024-FF3E-4233-8B6D-5F34E3F57714}" vbd="1" /><r id="{25A613CF-7643-4A1D-9E3D-8000FB9A8AF5}" ph="Header" uid="{2F19EDBD-C9F0-497B-B247-B97334CD6DDD}" /><r id="{D9BCD757-CDC3-4418-8BD6-2557D3DBFC21}" ph="HeaderPrimary" uid="{0AE2FA08-8FC5-453F-A93D-72B4A8E6CFAB}" /><r id="{60D8BA69-9E10-47E2-B1CB-ADF1A9F4AB6E}" ph="HeaderPrimary" uid="{CA3C339E-0646-4C1A-A631-48556326D96A}" /><r id="{CAC5E801-2772-4662-BD6A-CF5ABDE1A689}" ph="HeaderSearch" uid="{DDB463F0-49BB-4DEE-BFE8-8AE621BDE54F}" /><r id="{D644108C-FAB7-413D-82FD-25DBEA323385}" ph="Auxiliary" uid="{46FD8A3D-1024-417A-9183-096077FFA184}" /><r id="{685E949E-6DC0-4533-B189-F57C28747D0E}" ph="Content" uid="{B09FFC30-3B7F-4238-B481-E0FF39AFD2ED}" /><r id="{BADAAFC1-95DA-4604-BEF0-35CE270D3733}" ph="Content" uid="{7E3D4A98-44C5-459D-A9B8-6247BC708231}" /><r id="{79D75885-A671-426E-BBEA-90C074AFF139}" ph="Content" uid="{686D73B8-9CCD-4372-BF05-3A98B379F786}" /><r id="{011EF8AB-66E8-4D21-810A-FE920F282F95}" ph="Footer" uid="{8EE9453F-6232-4616-B0AC-1CC4E0D01154}" /><r cac="1" ds="{E8CF3F24-023C-4529-8619-BE1032C132DB}" id="{0FB9C1E8-806A-4A6D-A7B4-9ED4FC885C08}" par="" ph="FooterLeft" uid="{E2C056F4-A0BA-4AA8-843B-CDC116D00E25}" vbd="1" /><r cac="1" ds="{C7F360D2-EBF4-4E08-9F2B-7EF504D732EA}" id="{0FB9C1E8-806A-4A6D-A7B4-9ED4FC885C08}" par="" ph="FooterCenter" uid="{930FA424-DB4D-4CFC-B683-E523465943FA}" vbd="1" /><r cac="1" ds="{8871EB8E-EA49-42DF-90CE-3C4D0C3311E9}" id="{951324F1-8C5A-4FB6-8650-A38262281AEF}" par="" ph="FooterRight" uid="{0E948C99-877E-40F8-A36A-A5A1ED7B26C4}" vbd="1" /><r cac="1" ds="{43AB3564-BF20-4E86-969A-593C659A188E}" id="{FA5D428A-DEFA-4E48-8B08-CD8D090B0A8B}" par="" ph="Footer" uid="{515EAD69-16CD-4A38-9376-74952F5869DF}" vbd="1" /></d></r>
+----version----
+language: en
+version: 1
+revision: 45de08e0-0ad4-4871-b403-43cb85186c23
+
+----field----
+field: {1A8CF57A-2EEC-43B3-8E30-BCA432D90F2B}
+name: Heading
+key: heading
+content-length: 5
+
+$name
+----field----
+field: {257B80F0-B6AF-43AE-A7B9-8BDA48152687}
+name: Summary
+key: summary
+content-length: 540
+
+Vestibulum dapibus molestie eros, eget cursus mauris pretium eu. Donec consectetur odio a metus ullamcorper mattis sodales sed turpis. Cras sed dui maximus, vulputate metus id, egestas augue. Sed lacinia metus nec sollicitudin faucibus. Etiam in tristique mi, sed congue tortor. Etiam placerat faucibus ligula semper consequat. Vivamus semper, nulla nec suscipit pharetra, est purus rutrum erat, nec pellentesque nulla metus porttitor nunc. Cras cursus condimentum eros rutrum ullamcorper. Integer a elementum ex, scelerisque facilisis sem.
+----field----
+field: {BDF4EC0A-16BE-45E2-9312-EC73C131D225}
+name: Release Date
+key: release date
+content-length: 16
+
+20180903T040000Z
+----field----
+field: {7EF12042-BFC9-4C41-BB31-EC6D06C7109B}
+name: Author
+key: author
+content-length: 11
+
+John Q. Doe
+----field----
+field: {F794238A-E2E0-42CF-8173-3A3024FD28D6}
+name: Copy
+key: copy
+content-length: 2010
+
+<p>Vivamus blandit ante eu finibus convallis. Nam congue at tellus quis vehicula. Fusce finibus massa ut dui maximus, sed sollicitudin magna fringilla. Vivamus commodo ex nec tortor hendrerit vulputate. Nunc ut accumsan urna, id consequat neque. Sed dictum urna diam, sit amet vulputate orci laoreet nec. Integer sed tellus venenatis, auctor massa a, sollicitudin augue. Sed nec nisi quis justo gravida euismod sed eu dui. Donec eu nulla ac risus tincidunt tincidunt. Praesent eros urna, pretium at ipsum sed, euismod iaculis nibh. Donec ut lacus lobortis urna vulputate suscipit at et lectus. Maecenas convallis placerat eros a tristique.</p>
+
+<p>Vestibulum dapibus molestie eros, eget cursus mauris pretium eu. Donec consectetur odio a metus ullamcorper mattis sodales sed turpis. Cras sed dui maximus, vulputate metus id, egestas augue. Sed lacinia metus nec sollicitudin faucibus. Etiam in tristique mi, sed congue tortor. Etiam placerat faucibus ligula semper consequat. Vivamus semper, nulla nec suscipit pharetra, est purus rutrum erat, nec pellentesque nulla metus porttitor nunc. Cras cursus condimentum eros rutrum ullamcorper. Integer a elementum ex, scelerisque facilisis sem.</p>
+
+<p>Praesent et hendrerit mauris, at vulputate magna. In ut suscipit neque, at dapibus enim. Pellentesque nec erat vestibulum, porta turpis vitae, tempus ex. Morbi et tincidunt velit. Pellentesque id eros aliquet, posuere velit vitae, lacinia metus. Ut dictum, justo ac posuere rhoncus, metus massa dapibus justo, vitae aliquet mauris tellus nec sem. Quisque varius dolor felis, et auctor nunc mollis sit amet. Sed a gravida ex. Proin augue urna, vestibulum sit amet ullamcorper eget, bibendum ac erat. Etiam tristique tellus sed lacus elementum, at varius dolor luctus. Duis ultrices est ut dui dapibus facilisis. Sed volutpat pulvinar lorem, nec porta purus convallis in. Mauris finibus nisi neque, sit amet condimentum eros ullamcorper eget. Quisque eget elementum velit. Fusce gravida mollis quam eu faucibus.</p>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 16
+
+sitecore\rcabral
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20181005T181510Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 16
+
+sitecore\rcabral
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+45de08e0-0ad4-4871-b403-43cb85186c23
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20181113T182335Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

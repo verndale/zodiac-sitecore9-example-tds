@@ -1,0 +1,108 @@
+----item----
+version: 1
+id: {74B563B8-5B2F-4CEF-863D-8293D7FE1ECB}
+database: master
+path: /sitecore/templates/Project/Site/ExampleSite/Pages/Campaign Page/__Standard Values
+parent: {033E8D13-355E-4DF7-B104-6F065844F24F}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {033E8D13-355E-4DF7-B104-6F065844F24F}
+templatekey: Campaign Page
+created: 20181019T133852Z
+
+----field----
+field: {ED14E473-2EFF-493E-BFB3-946EB8D170A8}
+name: Search Engine Indexes Page
+key: search engine indexes page
+content-length: 0
+
+
+----field----
+field: {7DA2649E-2A47-4AFE-B5D7-C3D7AABA258E}
+name: Search Engine Follows Links
+key: search engine follows links
+content-length: 0
+
+
+----field----
+field: {876F445A-2967-4B95-8D0C-0B656F668B60}
+name: Search Engine Indexes Images
+key: search engine indexes images
+content-length: 0
+
+
+----field----
+field: {3B9653E9-CF7F-47FF-8BA3-2F38D7577195}
+name: Search Engine can Cache Page
+key: search engine can cache page
+content-length: 0
+
+
+----field----
+field: {724E54AF-D355-4946-9BB4-6D4DBA14A105}
+name: Search Engine can Snippet Page
+key: search engine can snippet page
+content-length: 0
+
+
+----field----
+field: {C454D2D8-D2E8-4755-8C64-682F73A44FAC}
+name: Allow ODP Snippet
+key: allow odp snippet
+content-length: 0
+
+
+----field----
+field: {AEEA733F-9CDC-4024-8103-7F57846AE6D9}
+name: Include in Sitemap
+key: include in sitemap
+content-length: 0
+
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 2552
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{5A69F7E7-CFA2-4243-9FD2-0A85A1CFF364}"><p uid="{6CF26741-0BAF-468A-A7AF-CB666F2A2939}" key="Content" md="{C5F0FDD5-AC04-45DB-8BDE-957F92203462}" /><p uid="{C7DA6205-0B1F-44BC-B06C-6730DF36DAB7}" key="Auxiliary" md="{92AE233D-F8A7-44C6-ABC7-6CDA1F78F723}" /><r id="{BADAAFC1-95DA-4604-BEF0-35CE270D3733}" ph="/Rows/Content-{ACE6DFEF-77CD-4546-9D82-3C09D61F493E}-0" uid="{38082542-8130-4364-92B0-D02948A90FBA}" /><r id="{A19AB6C6-D216-4C0E-8889-39E0DC540748}" ph="Rows" uid="{ACE6DFEF-77CD-4546-9D82-3C09D61F493E}" /><r cac="1" ds="{43AB3564-BF20-4E86-969A-593C659A188E}" id="{FF3C4CD6-31F9-4E76-845F-312E0ABCE7C1}" par="" ph="HtmlHead" uid="{9E4BBA32-2753-4D80-BD8F-E5F50EF432C8}" vbd="1" /><r id="{76B07B12-285B-485F-BBA3-581564A38CF3}" ph="HtmlHead" uid="{D44F14DC-DADE-4618-A701-7025B54225C9}" /><r id="{757AAA30-6660-4C03-B5B9-B18431D59634}" ph="HtmlHead" uid="{7B67B008-0CC1-4242-94D5-DE9FCD0CB207}" /><r id="{B6035EE8-BBC2-4F29-A235-95CA80B03035}" ph="HtmlHead" uid="{30E42248-FF1F-4215-9372-77D3222FFD39}" /><r cac="1" ds="{43AB3564-BF20-4E86-969A-593C659A188E}" id="{5A1167EC-72E6-4B63-878B-0D3DBF026A21}" par="" ph="Header" uid="{2CB99024-FF3E-4233-8B6D-5F34E3F57714}" vbd="1" /><r id="{25A613CF-7643-4A1D-9E3D-8000FB9A8AF5}" ph="Header" uid="{2F19EDBD-C9F0-497B-B247-B97334CD6DDD}" /><r id="{D9BCD757-CDC3-4418-8BD6-2557D3DBFC21}" ph="HeaderPrimary" uid="{0AE2FA08-8FC5-453F-A93D-72B4A8E6CFAB}" /><r id="{60D8BA69-9E10-47E2-B1CB-ADF1A9F4AB6E}" ph="HeaderPrimary" uid="{CA3C339E-0646-4C1A-A631-48556326D96A}" /><r id="{CAC5E801-2772-4662-BD6A-CF5ABDE1A689}" ph="HeaderSearch" uid="{64138B3F-B07D-409A-846D-521953E08B9F}" /><r id="{011EF8AB-66E8-4D21-810A-FE920F282F95}" ph="Footer" uid="{8EE9453F-6232-4616-B0AC-1CC4E0D01154}" /><r cac="1" ds="{E8CF3F24-023C-4529-8619-BE1032C132DB}" id="{0FB9C1E8-806A-4A6D-A7B4-9ED4FC885C08}" par="" ph="FooterLeft" uid="{E2C056F4-A0BA-4AA8-843B-CDC116D00E25}" vbd="1" /><r cac="1" ds="{C7F360D2-EBF4-4E08-9F2B-7EF504D732EA}" id="{0FB9C1E8-806A-4A6D-A7B4-9ED4FC885C08}" par="" ph="FooterCenter" uid="{930FA424-DB4D-4CFC-B683-E523465943FA}" vbd="1" /><r cac="1" ds="{8871EB8E-EA49-42DF-90CE-3C4D0C3311E9}" id="{951324F1-8C5A-4FB6-8650-A38262281AEF}" par="" ph="FooterRight" uid="{0E948C99-877E-40F8-A36A-A5A1ED7B26C4}" vbd="1" /><r cac="1" ds="{43AB3564-BF20-4E86-969A-593C659A188E}" id="{FA5D428A-DEFA-4E48-8B08-CD8D090B0A8B}" par="" ph="Footer" uid="{515EAD69-16CD-4A38-9376-74952F5869DF}" vbd="1" /></d></r>
+----version----
+language: en
+version: 1
+revision: 0adaf415-02b8-489a-8976-d3405f70f414
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20181019T133852Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0adaf415-02b8-489a-8976-d3405f70f414
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190124T162220Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\rcabral
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

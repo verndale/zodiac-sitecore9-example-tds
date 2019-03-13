@@ -1,0 +1,136 @@
+----item----
+version: 1
+id: {0FB9C1E8-806A-4A6D-A7B4-9ED4FC885C08}
+database: master
+path: /sitecore/layout/Renderings/Project/ExampleSite/Navigation/Footer Link List
+parent: {F49C4C8F-10EF-42B4-AF1D-29E7677D7D65}
+name: Footer Link List
+master: {00000000-0000-0000-0000-000000000000}
+template: {2A3E91A0-7987-44B5-AB34-35C2D9DE83B9}
+templatekey: Controller rendering
+created: 20181019T191302Z
+
+----field----
+field: {E64AD073-DFCC-4D20-8C0B-FE5AA6226CD7}
+name: Controller
+key: controller
+content-length: 16
+
+FooterNavigation
+----field----
+field: {DED9E431-3604-4921-A4B3-A6EC7636A5B6}
+name: Controller Action
+key: controller action
+content-length: 5
+
+Index
+----field----
+field: {FC5C3451-DFDE-4778-9901-5D0B1DA1E212}
+name: Area
+key: area
+content-length: 11
+
+ExampleSite
+----field----
+field: {1C0AF338-70A8-455F-8366-173135E03BE6}
+name: Placeholder
+key: placeholder
+content-length: 10
+
+FooterLeft
+----field----
+field: {3D08DB46-2267-41B0-BC52-BE69FD618633}
+name: Cacheable
+key: cacheable
+content-length: 1
+
+1
+----field----
+field: {8B6D532B-6128-4486-A044-CA06D90948BA}
+name: VaryByData
+key: varybydata
+content-length: 1
+
+1
+----field----
+field: {308E88F5-CD6E-4F8F-BAFE-95A47DEDEFDC}
+name: Editable
+key: editable
+content-length: 0
+
+
+----field----
+field: {B5B27AF1-25EF-405C-87CE-369B3A004016}
+name: Datasource Location
+key: datasource location
+content-length: 63
+
+/sitecore/content/Example Tenant/Example Site/Navigation/Footer
+----field----
+field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
+name: Datasource Template
+key: datasource template
+content-length: 63
+
+/sitecore/templates/Feature/Constellation/Navigation/Link Group
+----field----
+field: {F172B787-7B88-4BD5-AE4D-6308E102EF11}
+name: Enable Datasource Query
+key: enable datasource query
+content-length: 0
+
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 26
+
+Office/32x32/signpost2.png
+----version----
+language: en
+version: 1
+revision: eb2a72e5-19ad-49dc-a976-ff9073b83127
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 16
+
+sitecore\rcabral
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20181019T191303Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 16
+
+sitecore\rcabral
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+eb2a72e5-19ad-49dc-a976-ff9073b83127
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20181023T123517Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\rcabral

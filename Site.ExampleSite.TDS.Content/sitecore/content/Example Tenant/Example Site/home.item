@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {08C0032E-45F7-4B6D-9470-6ACCB2E0CED7}
+database: master
+path: /sitecore/content/Example Tenant/Example Site/home
+parent: {87566C1A-6527-426E-A760-523900AB0509}
+name: home
+master: {00000000-0000-0000-0000-000000000000}
+template: {C17346F3-6560-4515-A326-6E3DDDBB89F1}
+templatekey: Home Page
+created: 20181005T175255Z
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 2420
+
+<r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{6D7D8EAD-EE46-45CB-A98D-DAC291C66A9F}" p:before="*" s:ds="{D38CF88E-CA22-4211-8F94-075B85611EDE}" s:id="{522FE7DC-5E3A-468B-AD89-B1E8D179BF29}" s:ph="Rows" /><r uid="{FE9C5E4C-08D5-4F77-AABC-A43C7B7EB22D}" p:after="r[@uid='{6D7D8EAD-EE46-45CB-A98D-DAC291C66A9F}']" s:ds="{39796CFF-88AA-4DD3-84E5-0A87D300D02F}" s:id="{6221892C-66E2-42A9-B384-E8977BDD83F5}" s:ph="/Rows/Auxiliary-{2F52AF1D-8D57-40F3-98E2-48C4435D7719}-0" /><r uid="{666C14BA-086A-4039-8942-998FBAEC78F9}" p:after="r[@uid='{FE9C5E4C-08D5-4F77-AABC-A43C7B7EB22D}']" s:ds="{DCCC6A14-9D61-4C5D-B1C4-A8785FEC8FB9}" s:id="{CF9071F9-565B-4A44-98C9-15A83D31D407}" s:ph="/Rows/Auxiliary-{2F52AF1D-8D57-40F3-98E2-48C4435D7719}-0" /><r uid="{599D418A-5D36-4C12-8E48-E673878DEA5D}" p:after="r[@uid='{666C14BA-086A-4039-8942-998FBAEC78F9}']" s:ds="{97D8905A-2D11-4930-8827-FFFE3F074E1E}" s:id="{00160398-1091-4899-ABA0-A4FE5A41D03B}" s:ph="/Rows/Content-{406033AA-338F-4B83-9A4F-AEB54B2F5514}-0" /><r uid="{5A1C4DE2-0619-48B0-BF57-B8A5FD91CED0}" p:after="r[@uid='{599D418A-5D36-4C12-8E48-E673878DEA5D}']" s:ds="{DCA86DFA-B5BB-46E6-BF30-2267EF00AF32}" s:id="{00160398-1091-4899-ABA0-A4FE5A41D03B}" s:ph="/Rows/Content-{406033AA-338F-4B83-9A4F-AEB54B2F5514}-0" /><r uid="{406033AA-338F-4B83-9A4F-AEB54B2F5514}" p:after="r[@uid='{5A1C4DE2-0619-48B0-BF57-B8A5FD91CED0}']" s:id="{A34439C3-B815-4394-AC8C-D1037A2F7150}" s:ph="Rows" /><r uid="{2F52AF1D-8D57-40F3-98E2-48C4435D7719}" p:after="r[@uid='{406033AA-338F-4B83-9A4F-AEB54B2F5514}']" s:id="{A19AB6C6-D216-4C0E-8889-39E0DC540748}" s:ph="Rows" /><r uid="{9E4BBA32-2753-4D80-BD8F-E5F50EF432C8}" s:ph="HtmlHead" /><r uid="{D44F14DC-DADE-4618-A701-7025B54225C9}" s:ph="HtmlHead" /><r uid="{7B67B008-0CC1-4242-94D5-DE9FCD0CB207}" s:ph="HtmlHead" /><r uid="{30E42248-FF1F-4215-9372-77D3222FFD39}" s:ph="HtmlHead" /><r uid="{2CB99024-FF3E-4233-8B6D-5F34E3F57714}" s:ph="Header" /><r uid="{2F19EDBD-C9F0-497B-B247-B97334CD6DDD}" s:ph="Header" /><r uid="{0AE2FA08-8FC5-453F-A93D-72B4A8E6CFAB}" s:ph="HeaderPrimary" /><r uid="{CA3C339E-0646-4C1A-A631-48556326D96A}" s:ph="HeaderPrimary" /><r uid="{45F63746-595D-4EBF-9036-DED4CDFF740A}" s:ph="HeaderSearch" /><r uid="{8EE9453F-6232-4616-B0AC-1CC4E0D01154}" s:ph="Footer" /><r uid="{515EAD69-16CD-4A38-9376-74952F5869DF}" s:ph="Footer" /></d></r>
+----version----
+language: en
+version: 1
+revision: 1c996081-09c5-410d-b100-6f5592eb58df
+
+----field----
+field: {A8FAD4B5-F582-4B63-9031-8FA8EA8B6D06}
+name: Navigation Title
+key: navigation title
+content-length: 4
+
+Home
+----field----
+field: {1A61ECE0-2B10-458C-81C7-1E080222DA7B}
+name: Browser Title
+key: browser title
+content-length: 4
+
+Home
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 186
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{6D7D8EAD-EE46-45CB-A98D-DAC291C66A9F}" s:ds="{347DD828-5AC3-4BC3-B8C4-520B63C7C1E6}" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20181005T175255Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1c996081-09c5-410d-b100-6f5592eb58df
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190130T175644Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\rcabral
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

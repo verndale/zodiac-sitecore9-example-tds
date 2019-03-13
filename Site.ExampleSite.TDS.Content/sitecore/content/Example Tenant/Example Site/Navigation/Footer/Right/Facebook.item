@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {AA20FFF6-6E32-4E09-8FBF-D1ECCB9A2041}
+database: master
+path: /sitecore/content/Example Tenant/Example Site/Navigation/Footer/Right/Facebook
+parent: {8871EB8E-EA49-42DF-90CE-3C4D0C3311E9}
+name: Facebook
+master: {00000000-0000-0000-0000-000000000000}
+template: {34827329-CEC6-4A46-90F1-1B93FB46DFDE}
+templatekey: Image Navigation Link
+created: 20181017T150324Z
+
+----version----
+language: en
+version: 1
+revision: f28ca86b-7eda-4994-a18a-cd728596ec36
+
+----field----
+field: {C6E7B3E8-0BCA-4F7E-A7B9-22C0D1B43B63}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{E1FBCB93-E02E-4832-9D9E-C83CC45AA310}" />
+----field----
+field: {343B5D00-6E10-4863-840B-CEE38447B2F1}
+name: Link
+key: link
+content-length: 85
+
+<link linktype="external" url="https://www.facebook.com" anchor="" target="_blank" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20181017T150324Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f28ca86b-7eda-4994-a18a-cd728596ec36
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20181019T185759Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\rcabral

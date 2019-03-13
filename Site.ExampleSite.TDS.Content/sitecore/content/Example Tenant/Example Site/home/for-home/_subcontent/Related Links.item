@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {8C5DE925-D4A0-44DF-9601-46A142046894}
+database: master
+path: /sitecore/content/Example Tenant/Example Site/home/for-home/_subcontent/Related Links
+parent: {32242E32-07C4-4A62-868C-9F056F5214A4}
+name: Related Links
+master: {00000000-0000-0000-0000-000000000000}
+template: {C9A0816A-735E-4218-93D6-7740624D7AD8}
+templatekey: Related Links
+created: 20190124T184831Z
+
+----version----
+language: en
+version: 1
+revision: babe843c-369b-4659-a53a-b55b463e62f2
+
+----field----
+field: {32FAB755-0EDB-4768-940F-34EA5D502E90}
+name: Heading
+key: heading
+content-length: 13
+
+Related Links
+----field----
+field: {9CC192B5-160B-48C6-A17B-D8B831CC4B46}
+name: Links
+key: links
+content-length: 155
+
+{9EB98A5D-9E65-4A6E-97DA-C2C88CCDEC4D}|{7EE3F3EE-E249-421B-AEA1-3D42711C5E1B}|{3100C04D-94D5-4941-8BA9-6026255741C7}|{B362A60F-9D2D-4DF6-94AB-5D81BC55F845}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190124T184831Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+babe843c-369b-4659-a53a-b55b463e62f2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190124T184939Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\rcabral
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

@@ -1,0 +1,87 @@
+----item----
+version: 1
+id: {D38CF88E-CA22-4211-8F94-075B85611EDE}
+database: master
+path: /sitecore/content/Example Tenant/Example Site/home/_subcontent/Welcome to Example Site
+parent: {BCC3CC9A-CDE8-4D71-AA4E-C052CEA2E737}
+name: Welcome to Example Site
+master: {00000000-0000-0000-0000-000000000000}
+template: {38BD5B8C-DF4C-4BAC-96CB-BDA48FE1E756}
+templatekey: Jumbotron
+created: 20181121T145330Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 2
+
+50
+----version----
+language: en
+version: 1
+revision: ce2bd1c2-75c8-4bef-9f26-4e102ed0763b
+
+----field----
+field: {43446AC4-B564-4A8A-B823-DA7BF37ABEEF}
+name: Heading
+key: heading
+content-length: 23
+
+Welcome to Example Site
+----field----
+field: {EA7777CB-ACF0-4ABE-9A5F-AF13AA40C06A}
+name: Lead
+key: lead
+content-length: 195
+
+Nunc ut lacus eros. Suspendisse quis est id ligula eleifend blandit sit amet nec nisl. Donec dignissim bibendum enim vel finibus. Integer pharetra ultrices tortor vitae rhoncus.[No text in field]
+----field----
+field: {CE8D7488-8346-4293-9F4C-0139DB27EADA}
+name: Copy
+key: copy
+content-length: 408
+
+<p>Curabitur magna mi, viverra porttitor pretium in, feugiat pulvinar elit. Maecenas a erat vel mauris porttitor tempor. Curabitur ligula risus, scelerisque nec consequat luctus, efficitur consequat arcu. Nam a sagittis massa, ultrices fringilla nibh. Phasellus eu porta est. Ut non dui justo. Pellentesque auctor sed massa ut condimentum. Mauris hendrerit finibus eros, at vestibulum mauris convallis a.</p>
+----field----
+field: {90ED59E8-1FF9-477C-8AC5-D8EC440F5C95}
+name: Button Link
+key: button link
+content-length: 122
+
+<link linktype="internal" text="Find Out About Us" querystring="" target="" id="{4CE095C4-9A50-4EA7-8D8D-3879D11F5283}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20181121T145330Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ce2bd1c2-75c8-4bef-9f26-4e102ed0763b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190117T192613Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\rcabral
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

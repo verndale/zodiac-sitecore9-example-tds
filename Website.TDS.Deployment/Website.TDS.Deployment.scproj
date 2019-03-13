@@ -1,0 +1,103 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>0cff4805-6f43-49ab-9c8d-eb328cbaee9c</ProjectGuid>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <EnableUpdateable>true</EnableUpdateable>
+    <UseMerge>true</UseMerge>
+    <SingleAssemblyName>Website.TDS.Deployment</SingleAssemblyName>
+    <UseWebConfigReplacement>false</UseWebConfigReplacement>
+    <DeleteAppCodeCompiledFiles>true</DeleteAppCodeCompiledFiles>
+    <LegacyFileReplacement>false</LegacyFileReplacement>
+    <AssemblyName>Website.TDS.Deployment</AssemblyName>
+    <Name>Website.TDS.Deployment</Name>
+    <RootNamespace>Website.TDS.Deployment</RootNamespace>
+    <SourceWebVirtualPath>/Website.csproj</SourceWebVirtualPath>
+    <SourceWebProject>{900746a9-5695-4c0b-9f64-cf95baba5adc}|Website\Website.csproj</SourceWebProject>
+    <SourceWebPhysicalPath>..\Website</SourceWebPhysicalPath>
+    <ManageRoles>False</ManageRoles>
+    <SitecoreDatabase>master</SitecoreDatabase>
+    <AssemblyStatus>Exclude</AssemblyStatus>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+    <PackageName>Website.TDS.Deployment</PackageName>
+    <PackageAuthor />
+    <PackagePublisher />
+    <PackageVersion />
+    <PackageReadme />
+    <SitecoreAssemblyPath />
+    <GeneratePackage>True</GeneratePackage>
+    <SeperateFilesAndItems>False</SeperateFilesAndItems>
+    <PackageExcludeCode>False</PackageExcludeCode>
+    <AddDateTimeToPackageName>False</AddDateTimeToPackageName>
+    <EnableValidations>False</EnableValidations>
+    <ValidationSettingsFilePath>.\Website.TDS.Deployment_Release.xml</ValidationSettingsFilePath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AssemblyAttributes Include="AssemblyFileVersion">
+      <Value>$(AssemblyFileVersion)</Value>
+    </AssemblyAttributes>
+    <AssemblyAttributes Include="AssemblyVersion">
+      <Value>$(AssemblyVersion)</Value>
+    </AssemblyAttributes>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Feature.Labels.TDS.Templates\Feature.Labels.TDS.Templates.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Site.ExampleSite.TDS.Content\Site.ExampleSite.TDS.Content.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Site.ExampleSite.TDS.Core\Site.ExampleSite.TDS.Core.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Site.ExampleSite.TDS.Layout\Site.ExampleSite.TDS.Layout.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Site.ExampleSite.TDS.System\Site.ExampleSite.TDS.System.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Site.ExampleSite.TDS.Templates\Site.ExampleSite.TDS.Templates.scproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Website\Website.csproj">
+      <Project>{900746a9-5695-4c0b-9f64-cf95baba5adc}</Project>
+      <Name>Website</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundledProject Include="..\Feature.Labels.TDS.Templates\Feature.Labels.TDS.Templates.scproj">
+      <ProjectId>{ea41fd9a-d9d6-4e2b-9c13-36127495ab29}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\Site.ExampleSite.TDS.Content\Site.ExampleSite.TDS.Content.scproj">
+      <ProjectId>{f9b79a1b-9769-4a18-b9da-214a20e3f5ac}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\Site.ExampleSite.TDS.Core\Site.ExampleSite.TDS.Core.scproj">
+      <ProjectId>{1dd2c32a-4118-4d9e-8b64-bebe52263e05}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\Site.ExampleSite.TDS.Layout\Site.ExampleSite.TDS.Layout.scproj">
+      <ProjectId>{ed02e880-6356-4f41-9663-5f174d942ef7}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\Site.ExampleSite.TDS.System\Site.ExampleSite.TDS.System.scproj">
+      <ProjectId>{459b6eaa-db44-4616-8477-f58143d2ca18}</ProjectId>
+    </BundledProject>
+    <BundledProject Include="..\Site.ExampleSite.TDS.Templates\Site.ExampleSite.TDS.Templates.scproj">
+      <ProjectId>{cfc6d0ba-16b9-42c0-b4d5-6f1278c540f2}</ProjectId>
+    </BundledProject>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" Condition="Exists('$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets')" />
+</Project>

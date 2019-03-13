@@ -1,0 +1,85 @@
+----item----
+version: 1
+id: {10057EAA-E69F-4C69-B98B-DB3CCB1DD24C}
+database: master
+path: /sitecore/system/Settings/Rules/Item Saved/Rules/Example Site Press Releases are Stored by Month and Year
+parent: {86E2276A-437F-492F-B1B9-CEDBB3B9DA88}
+name: Example Site Press Releases are Stored by Month and Year
+master: {00000000-0000-0000-0000-000000000000}
+template: {D9BDF22F-6E17-47F3-AB64-49C717BA92DA}
+templatekey: Rule
+created: 20181107T201021Z
+
+----field----
+field: {908EF45D-4940-4B6A-857D-3739BA4ACF8F}
+name: Rule
+key: rule
+content-length: 814
+
+<ruleset>
+  <rule uid="{14E184C5-6878-4CA1-9BF4-F5965EFD1B6B}">
+    <conditions>
+      <and uid="1A3A39142AD548BC8EDFC3201C558287">
+        <condition id="{4B889F07-94D4-4371-B522-9FFE8AF0BE12}" uid="710E0702949C4D81B8CA6185AA2CEB05" operatorid="{FDD7C6B1-622A-4362-9CFF-DDE9866C68EA}" value="/sitecore/content/Example Tenant/Example Site" />
+        <condition id="{5DE6D53E-EA62-4D17-8BDD-FEBCD80AC07B}" uid="8557F9E988C843B08FDF1F5FF1B8A27C" templateid="{0A911D86-82DB-42E8-8F7B-3B75EB47F5D5}" />
+      </and>
+    </conditions>
+    <actions>
+      <action id="{CD8F0F5A-B04E-4FEA-94D2-C1E532A0EB01}" uid="C58AD434B7A7482A89B4E47867AF2E9E" NameOfDateFieldToSortBy="Release Date" FolderTemplate="{A87A00B1-E6DB-45AB-8B54-636FEC3B5523}" FolderDepth="YearAndMonth" />
+    </actions>
+  </rule>
+</ruleset>
+----version----
+language: en
+version: 1
+revision: 4debf448-3d21-4ca1-963e-6356064f86fb
+
+----field----
+field: {45CF9130-802A-41BE-B3EB-C02F657DCC2E}
+name: Name
+key: name
+content-length: 43
+
+Press Releases are Stored by Month and Year
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 16
+
+sitecore\rcabral
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20181107T201021Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 16
+
+sitecore\rcabral
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4debf448-3d21-4ca1-963e-6356064f86fb
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190301T162116Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\rcabral

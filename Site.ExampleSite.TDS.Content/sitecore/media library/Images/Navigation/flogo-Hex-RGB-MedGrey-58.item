@@ -1,0 +1,132 @@
+----item----
+version: 1
+id: {E1FBCB93-E02E-4832-9D9E-C83CC45AA310}
+database: master
+path: /sitecore/media library/Images/Navigation/flogo-Hex-RGB-MedGrey-58
+parent: {4E2B9F76-E424-4E5C-96FF-7C463996DC48}
+name: flogo-Hex-RGB-MedGrey-58
+master: {00000000-0000-0000-0000-000000000000}
+template: {F1828A2C-7E5D-4BBD-98CA-320474871548}
+templatekey: Image
+created: 20181019T185638Z
+
+----field----
+field: {40E50ED9-BA07-4702-992E-A912738D32DC}
+name: Blob
+key: blob
+content-length: 800
+
+iVBORw0KGgoAAAANSUhEUgAAADoAAAA6CAYAAADhu0ooAAAACXBIWXMAAAsSAAALEgHS3X78AAAB
++0lEQVRoge2ZS0sCURSAT74rG7V8EL2DbGEIQZGLaMhlLTJoEbTq59Sm9j0IWgbhooh2DUGrolU/
+wAhN0zTxNRoRA7ZL55COM3O63/aeOed+cOfce2e6dvYOnQAQBQAeaCIAQMRAXBLqblEDcckfeIM2
+5qE8TJQaTJQaJi37ODg7OLi+pjHPLwlULs2JSnJhPpScHB/hjEZDN+aZ3f0j2RjNiFqtFlheWkgH
+A343APjanV8TopLk9tb6O8fZ3UrV0EQzqkv2K1lDdVF+cf5DaUlQW1RasnOzM5ZO1FJVdHpqoozt
+rK2iqmgw4E93qpaqXdfndaO6bDqTTd7ePfikw4EoVv9US1VRzLKVJI9Pz1veV1Vbul7PACru/vGJ
+a0c91URtVlyzzeXybWlW7JpGDSZKDfaFoR1IW0ij7ur14M7xcnEVsQqpt4xsHkVF11bDMZeTG2sl
+R5gPNR3P5vKxg5Mz2Rq6X7rlcgXloHvR12T6CxOne9FCsYQ6IupeNJ5IuTBxuhetIK9tuhfFbC2g
+d1FRrGaxsYruo/FESsof+23MbDbZ7L09shfqQrGUrNU+K03yo95RRUUvr4WhRmOjw4OwubEim+Pi
+6saH/b/SDHaopwYTpQYTpQYTpQYTpQYTpQYTpQYTpQYTpca/EhU0MA+lESTRCHFZAQAi3xJFcNFa
+Eii9AAAAAElFTkSuQmCC
+----field----
+field: {22EAC599-F13B-4607-A89D-C091763A467D}
+name: Width
+key: width
+content-length: 2
+
+58
+----field----
+field: {DE2CA9E4-C117-4C8A-A139-1FF4B199D15A}
+name: Height
+key: height
+content-length: 2
+
+58
+----field----
+field: {C06867FE-9A43-4C7D-B739-48780492D06F}
+name: Extension
+key: extension
+content-length: 3
+
+png
+----field----
+field: {6F47A0A5-9C94-4B48-ABEB-42D38DEF6054}
+name: Mime Type
+key: mime type
+content-length: 9
+
+image/png
+----field----
+field: {6954B7C7-2487-423F-8600-436CB3B6DC0E}
+name: Size
+key: size
+content-length: 3
+
+585
+----field----
+field: {CB09946F-3218-4823-87D2-D5007C199A96}
+name: Dimensions
+key: dimensions
+content-length: 7
+
+58 x 58
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 61
+
+-/media/E1FBCB93E02E48329D9EC83CC45AA310.ashx?h=16&thn=1&w=16
+----version----
+language: en
+version: 1
+revision: b72fdf72-6a8f-4870-9b10-2c9aa81cb1d1
+
+----field----
+field: {65885C44-8FCD-4A7F-94F1-EE63703FE193}
+name: Alt
+key: alt
+content-length: 8
+
+Facebook
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 16
+
+sitecore\rcabral
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20181019T185638Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 16
+
+sitecore\rcabral
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b72fdf72-6a8f-4870-9b10-2c9aa81cb1d1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20181019T185655Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\rcabral

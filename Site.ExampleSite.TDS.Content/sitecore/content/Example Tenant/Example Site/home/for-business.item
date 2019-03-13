@@ -1,0 +1,87 @@
+----item----
+version: 1
+id: {1F503A08-0822-4C9A-B323-2C195BBEF01B}
+database: master
+path: /sitecore/content/Example Tenant/Example Site/home/for-business
+parent: {08C0032E-45F7-4B6D-9470-6ACCB2E0CED7}
+name: for-business
+master: {00000000-0000-0000-0000-000000000000}
+template: {34F63572-5B5B-4883-9240-4F2504403AA3}
+templatekey: Audience Page
+created: 20181005T192037Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+400
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 355
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{F3DDCCD2-00AD-47A1-B0D1-7E9C259E8B7E}" p:after="p[@uid='{AE3D702C-41B1-49F0-ABAE-0FB977D85D00}']" s:ds="{2F642DEF-5D65-4B01-BB35-4D4F5D92DCED}" s:id="{6221892C-66E2-42A9-B384-E8977BDD83F5}" s:ph="/Rows/Auxiliary-{ED4E51F3-D718-4901-A38C-17180BAD5F59}-0" /></d></r>
+----version----
+language: en
+version: 1
+revision: 525e06b4-0da1-4ea4-b1ba-3f9b4d5673a7
+
+----field----
+field: {A8FAD4B5-F582-4B63-9031-8FA8EA8B6D06}
+name: Navigation Title
+key: navigation title
+content-length: 12
+
+For Business
+----field----
+field: {CA29D89D-BD9A-411E-A017-CA404928D18A}
+name: Heading
+key: heading
+content-length: 12
+
+For Business
+----field----
+field: {1A61ECE0-2B10-458C-81C7-1E080222DA7B}
+name: Browser Title
+key: browser title
+content-length: 12
+
+For Business
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 375
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{F3DDCCD2-00AD-47A1-B0D1-7E9C259E8B7E}"><p:d /></r><r uid="{ED4E51F3-D718-4901-A38C-17180BAD5F59}"><p:d /></r><r uid="{B9F623B1-972E-4DC4-81E4-C9C8327876F6}" p:after="r[@uid='{BBEA2A5D-47A8-4DE6-B032-866790C571DB}']" s:id="{A34439C3-B815-4394-AC8C-D1037A2F7150}" s:ph="Rows" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20181005T192037Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+525e06b4-0da1-4ea4-b1ba-3f9b4d5673a7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190222T160248Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\rcabral

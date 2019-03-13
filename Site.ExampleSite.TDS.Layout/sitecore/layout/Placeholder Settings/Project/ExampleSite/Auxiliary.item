@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {92AE233D-F8A7-44C6-ABC7-6CDA1F78F723}
+database: master
+path: /sitecore/layout/Placeholder Settings/Project/ExampleSite/Auxiliary
+parent: {9E99FD77-1C1C-4BCB-9673-3CCE463925BC}
+name: Auxiliary
+master: {00000000-0000-0000-0000-000000000000}
+template: {5C547D4E-7111-4995-95B0-6B561751BF2E}
+templatekey: Placeholder
+created: 20181023T144656Z
+
+----field----
+field: {7256BDAB-1FD2-49DD-B205-CB4873D2917C}
+name: Placeholder Key
+key: placeholder key
+content-length: 9
+
+Auxiliary
+----field----
+field: {E391B526-D0C5-439D-803E-17512EAE6222}
+name: Allowed Controls
+key: allowed controls
+content-length: 155
+
+{6221892C-66E2-42A9-B384-E8977BDD83F5}|{D644108C-FAB7-413D-82FD-25DBEA323385}|{CF9071F9-565B-4A44-98C9-15A83D31D407}|{32BC1CA7-3589-465A-8CA7-8FDA6F5643D5}
+----version----
+language: en
+version: 1
+revision: d2329857-2f6f-4916-bf1c-af1abab476e8
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 16
+
+sitecore\rcabral
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20181023T144656Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 16
+
+sitecore\rcabral
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d2329857-2f6f-4916-bf1c-af1abab476e8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20181106T172912Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\rcabral

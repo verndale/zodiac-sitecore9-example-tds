@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {20C787E9-46FA-403E-A853-24307CBF2089}
+database: master
+path: /sitecore/content/Example Tenant/Example Site/home/for-home/_subcontent/Section 1
+parent: {32242E32-07C4-4A62-868C-9F056F5214A4}
+name: Section 1
+master: {00000000-0000-0000-0000-000000000000}
+template: {9D76C184-B69D-45D3-B360-609DF45B473F}
+templatekey: Content Section
+created: 20190124T184711Z
+
+----version----
+language: en
+version: 1
+revision: b6159952-d9f5-48ce-adf7-1b9761612822
+
+----field----
+field: {F383C177-18C4-46A5-8319-DA9B56248484}
+name: Heading
+key: heading
+content-length: 9
+
+Section 1
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190124T184711Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b6159952-d9f5-48ce-adf7-1b9761612822
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190124T184711Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\rcabral

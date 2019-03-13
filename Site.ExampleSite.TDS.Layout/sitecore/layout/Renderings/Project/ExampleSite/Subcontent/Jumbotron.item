@@ -1,0 +1,115 @@
+----item----
+version: 1
+id: {522FE7DC-5E3A-468B-AD89-B1E8D179BF29}
+database: master
+path: /sitecore/layout/Renderings/Project/ExampleSite/Subcontent/Jumbotron
+parent: {730DB7FA-72B4-4BA5-80A5-0A966CE8F530}
+name: Jumbotron
+master: {00000000-0000-0000-0000-000000000000}
+template: {2A3E91A0-7987-44B5-AB34-35C2D9DE83B9}
+templatekey: Controller rendering
+created: 20181121T140641Z
+
+----field----
+field: {E64AD073-DFCC-4D20-8C0B-FE5AA6226CD7}
+name: Controller
+key: controller
+content-length: 9
+
+Jumbotron
+----field----
+field: {DED9E431-3604-4921-A4B3-A6EC7636A5B6}
+name: Controller Action
+key: controller action
+content-length: 5
+
+Index
+----field----
+field: {FC5C3451-DFDE-4778-9901-5D0B1DA1E212}
+name: Area
+key: area
+content-length: 11
+
+ExampleSite
+----field----
+field: {1C0AF338-70A8-455F-8366-173135E03BE6}
+name: Placeholder
+key: placeholder
+content-length: 4
+
+Rows
+----field----
+field: {B5B27AF1-25EF-405C-87CE-369B3A004016}
+name: Datasource Location
+key: datasource location
+content-length: 13
+
+./_subcontent
+----field----
+field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
+name: Datasource Template
+key: datasource template
+content-length: 65
+
+/sitecore/templates/Project/Site/ExampleSite/Subcontent/Jumbotron
+----field----
+field: {A2F5D9DF-8CBA-4A1D-99EB-51ACB94CB057}
+name: Page Editor Buttons
+key: page editor buttons
+content-length: 38
+
+{3F2D3F5D-C87D-4B7C-A35B-1C97CBB048EF}
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 30
+
+office/32x32/flatscreen_tv.png
+----version----
+language: en
+version: 1
+revision: 0f860187-58bb-4f40-8dbf-0f131c7392e1
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 16
+
+sitecore\rcabral
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20181121T140641Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 16
+
+sitecore\rcabral
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0f860187-58bb-4f40-8dbf-0f131c7392e1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20181121T151254Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\rcabral

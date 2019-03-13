@@ -1,0 +1,113 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Website", "Website\Website.csproj", "{900746A9-5695-4C0B-9F64-CF95BABA5ADC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{CFC78933-2CC2-4234-AFDF-D8816722EE42}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{568877F8-097D-4BC6-9FB6-ECF50142B217}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Site", "Site", "{54DF898C-25C8-4140-97EF-5C245E6A3F48}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet", "NuGet", "{9891A265-5C77-4DFC-A699-034119301342}"
+	ProjectSection(SolutionItems) = preProject
+		nuget.config = nuget.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feature.Labels", "Feature.Labels\Feature.Labels.csproj", "{74F50DA4-2216-4F95-811A-361709CE5C1C}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Feature.Labels.TDS.Templates", "Feature.Labels.TDS.Templates\Feature.Labels.TDS.Templates.scproj", "{EA41FD9A-D9D6-4E2B-9C13-36127495AB29}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_TDS", "_TDS", "{D23864C2-B5C8-4547-AFFE-402756F637A6}"
+	ProjectSection(SolutionItems) = preProject
+		TdsGlobal.config = TdsGlobal.config
+	EndProjectSection
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Site.ExampleSite.TDS.Content", "Site.ExampleSite.TDS.Content\Site.ExampleSite.TDS.Content.scproj", "{F9B79A1B-9769-4A18-B9DA-214A20E3F5AC}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Site.ExampleSite.TDS.Core", "Site.ExampleSite.TDS.Core\Site.ExampleSite.TDS.Core.scproj", "{1DD2C32A-4118-4D9E-8B64-BEBE52263E05}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Site.ExampleSite.TDS.Layout", "Site.ExampleSite.TDS.Layout\Site.ExampleSite.TDS.Layout.scproj", "{ED02E880-6356-4F41-9663-5F174D942EF7}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Site.ExampleSite.TDS.System", "Site.ExampleSite.TDS.System\Site.ExampleSite.TDS.System.scproj", "{459B6EAA-DB44-4616-8477-F58143D2CA18}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Site.ExampleSite.TDS.Templates", "Site.ExampleSite.TDS.Templates\Site.ExampleSite.TDS.Templates.scproj", "{CFC6D0BA-16B9-42C0-B4D5-6F1278C540F2}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Website.TDS.Deployment", "Website.TDS.Deployment\Website.TDS.Deployment.scproj", "{0CFF4805-6F43-49AB-9C8D-EB328CBAEE9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{900746A9-5695-4C0B-9F64-CF95BABA5ADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{900746A9-5695-4C0B-9F64-CF95BABA5ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{900746A9-5695-4C0B-9F64-CF95BABA5ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{900746A9-5695-4C0B-9F64-CF95BABA5ADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74F50DA4-2216-4F95-811A-361709CE5C1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74F50DA4-2216-4F95-811A-361709CE5C1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74F50DA4-2216-4F95-811A-361709CE5C1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74F50DA4-2216-4F95-811A-361709CE5C1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA41FD9A-D9D6-4E2B-9C13-36127495AB29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA41FD9A-D9D6-4E2B-9C13-36127495AB29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA41FD9A-D9D6-4E2B-9C13-36127495AB29}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EA41FD9A-D9D6-4E2B-9C13-36127495AB29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA41FD9A-D9D6-4E2B-9C13-36127495AB29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA41FD9A-D9D6-4E2B-9C13-36127495AB29}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F9B79A1B-9769-4A18-B9DA-214A20E3F5AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9B79A1B-9769-4A18-B9DA-214A20E3F5AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9B79A1B-9769-4A18-B9DA-214A20E3F5AC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F9B79A1B-9769-4A18-B9DA-214A20E3F5AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9B79A1B-9769-4A18-B9DA-214A20E3F5AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9B79A1B-9769-4A18-B9DA-214A20E3F5AC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1DD2C32A-4118-4D9E-8B64-BEBE52263E05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DD2C32A-4118-4D9E-8B64-BEBE52263E05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DD2C32A-4118-4D9E-8B64-BEBE52263E05}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1DD2C32A-4118-4D9E-8B64-BEBE52263E05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DD2C32A-4118-4D9E-8B64-BEBE52263E05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DD2C32A-4118-4D9E-8B64-BEBE52263E05}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{ED02E880-6356-4F41-9663-5F174D942EF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED02E880-6356-4F41-9663-5F174D942EF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED02E880-6356-4F41-9663-5F174D942EF7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{ED02E880-6356-4F41-9663-5F174D942EF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED02E880-6356-4F41-9663-5F174D942EF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED02E880-6356-4F41-9663-5F174D942EF7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{459B6EAA-DB44-4616-8477-F58143D2CA18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{459B6EAA-DB44-4616-8477-F58143D2CA18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{459B6EAA-DB44-4616-8477-F58143D2CA18}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{459B6EAA-DB44-4616-8477-F58143D2CA18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{459B6EAA-DB44-4616-8477-F58143D2CA18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{459B6EAA-DB44-4616-8477-F58143D2CA18}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{CFC6D0BA-16B9-42C0-B4D5-6F1278C540F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFC6D0BA-16B9-42C0-B4D5-6F1278C540F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFC6D0BA-16B9-42C0-B4D5-6F1278C540F2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CFC6D0BA-16B9-42C0-B4D5-6F1278C540F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFC6D0BA-16B9-42C0-B4D5-6F1278C540F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFC6D0BA-16B9-42C0-B4D5-6F1278C540F2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0CFF4805-6F43-49AB-9C8D-EB328CBAEE9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CFF4805-6F43-49AB-9C8D-EB328CBAEE9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CFF4805-6F43-49AB-9C8D-EB328CBAEE9C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0CFF4805-6F43-49AB-9C8D-EB328CBAEE9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CFF4805-6F43-49AB-9C8D-EB328CBAEE9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CFF4805-6F43-49AB-9C8D-EB328CBAEE9C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{74F50DA4-2216-4F95-811A-361709CE5C1C} = {CFC78933-2CC2-4234-AFDF-D8816722EE42}
+		{EA41FD9A-D9D6-4E2B-9C13-36127495AB29} = {CFC78933-2CC2-4234-AFDF-D8816722EE42}
+		{F9B79A1B-9769-4A18-B9DA-214A20E3F5AC} = {54DF898C-25C8-4140-97EF-5C245E6A3F48}
+		{1DD2C32A-4118-4D9E-8B64-BEBE52263E05} = {54DF898C-25C8-4140-97EF-5C245E6A3F48}
+		{ED02E880-6356-4F41-9663-5F174D942EF7} = {54DF898C-25C8-4140-97EF-5C245E6A3F48}
+		{459B6EAA-DB44-4616-8477-F58143D2CA18} = {54DF898C-25C8-4140-97EF-5C245E6A3F48}
+		{CFC6D0BA-16B9-42C0-B4D5-6F1278C540F2} = {54DF898C-25C8-4140-97EF-5C245E6A3F48}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
+		SolutionGuid = {231E78D9-CED2-42AC-8E3E-61525B8B4550}
+	EndGlobalSection
+EndGlobal

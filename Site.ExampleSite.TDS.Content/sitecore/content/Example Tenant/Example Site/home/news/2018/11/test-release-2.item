@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {A6D024F6-32DB-4E1A-8F5B-658949192356}
+database: master
+path: /sitecore/content/Example Tenant/Example Site/home/news/2018/11/test-release-2
+parent: {E60D1BEE-1076-402D-9DD9-EFC468FDA9C5}
+name: test-release-2
+master: {00000000-0000-0000-0000-000000000000}
+template: {0A911D86-82DB-42E8-8F7B-3B75EB47F5D5}
+templatekey: Press Release
+created: 20181113T204552Z
+
+----version----
+language: en
+version: 1
+revision: d636c5a3-1fd9-40f9-abfc-8ee20bedce4d
+
+----field----
+field: {A8FAD4B5-F582-4B63-9031-8FA8EA8B6D06}
+name: Navigation Title
+key: navigation title
+content-length: 14
+
+Test Release 2
+----field----
+field: {1A61ECE0-2B10-458C-81C7-1E080222DA7B}
+name: Browser Title
+key: browser title
+content-length: 14
+
+Test Release 2
+----field----
+field: {1A8CF57A-2EEC-43B3-8E30-BCA432D90F2B}
+name: Heading
+key: heading
+content-length: 14
+
+Test Release 2
+----field----
+field: {BDF4EC0A-16BE-45E2-9312-EC73C131D225}
+name: Release Date
+key: release date
+content-length: 16
+
+20181112T050000Z
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20181113T204552Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d636c5a3-1fd9-40f9-abfc-8ee20bedce4d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20181113T204600Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\rcabral

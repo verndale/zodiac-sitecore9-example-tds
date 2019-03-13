@@ -1,0 +1,75 @@
+----item----
+version: 1
+id: {033C5DF2-1485-4D8B-B9E6-090E26A3E51D}
+database: master
+path: /sitecore/templates/Project/Site/ExampleSite/Subcontent/Content Section/__Standard Values
+parent: {9D76C184-B69D-45D3-B360-609DF45B473F}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {9D76C184-B69D-45D3-B360-609DF45B473F}
+templatekey: Content Section
+created: 20181023T141851Z
+
+----version----
+language: en
+version: 1
+revision: 2929a0b1-c437-4738-a222-4e4adab418eb
+
+----field----
+field: {F383C177-18C4-46A5-8319-DA9B56248484}
+name: Heading
+key: heading
+content-length: 5
+
+$name
+----field----
+field: {B4155E6A-E302-4DDE-B274-9DF285F41D41}
+name: Copy
+key: copy
+content-length: 1077
+
+<p>Donec mauris arcu, vehicula eu massa nec, convallis volutpat leo. Nulla ultricies euismod risus, in consectetur lorem fringilla a. Mauris tempor tristique sagittis. Vivamus venenatis tellus vitae leo pharetra, non bibendum nibh imperdiet. Duis ac efficitur urna, in tincidunt dolor. Nulla sagittis purus dolor, sed tempor justo fermentum sed. Vestibulum viverra arcu sed purus rutrum, et euismod ipsum lacinia. Maecenas cursus rutrum nisl id tincidunt. Nam a lacus eget justo consequat euismod. Curabitur metus leo, rhoncus eget viverra a, tempor ac eros. Nam rhoncus magna eros, a suscipit odio scelerisque facilisis.</p>
+
+<p>Morbi a risus tincidunt, sollicitudin orci vel, laoreet neque. Maecenas maximus blandit ex quis eleifend. Donec scelerisque ex vitae nulla ornare tristique. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia lectus a dolor euismod, quis ultrices sem interdum. Duis faucibus felis ac mi consectetur elementum. Vivamus a semper orci. Morbi feugiat sagittis urna, eu viverra lectus fermentum eu.</p>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 16
+
+sitecore\rcabral
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20181023T141851Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 16
+
+sitecore\rcabral
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2929a0b1-c437-4738-a222-4e4adab418eb
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20181023T142142Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\rcabral
