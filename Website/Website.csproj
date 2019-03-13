@@ -419,6 +419,7 @@
     <Content Include="App_Config\Include\Project\ExampleSite\_SiteDefinition.qacd.config" />
     <Content Include="App_Config\Include\Project\ExampleSite\_SiteDefinition.prodcm.config" />
     <Content Include="App_Config\Include\Project\ExampleSite\_SiteDefinition.qacm.config" />
+    <Content Include="App_Config\Include\Feature\Feature.Labels.Items.config" />
     <None Include="App_Config\Include\Project\ProjectName\SiteCacheClearing.config.example" />
     <None Include="App_Config\Include\Project\ProjectName\SiteLanguages.config.example" />
     <None Include="App_Config\Include\Project\ProjectName\SitemapXml.config.example" />
@@ -507,6 +508,7 @@
     <Content Include="App_Data\packages\5_ExampleSite-Content.zip" />
     <Content Include="App_Data\packages\2_ExampleSite-Templates.zip" />
     <Content Include="App_Data\packages\4_ExampleSite-Layout.zip" />
+    <Content Include="App_Data\packages\Feature-Labels-Items.zip" />
     <None Include="packages.config" />
     <Content Include="Web.config" />
     <None Include="Properties\PublishProfiles\Debug.pubxml" />
@@ -519,7 +521,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Config\Include\Feature\" />
     <Folder Include="App_Config\Include\Foundation\" />
     <Folder Include="Areas\ExampleSite\Views\NickFacts\" />
     <Folder Include="Controllers\" />
