@@ -502,11 +502,11 @@
     <Content Include="Areas\ExampleSite\Views\Widgets\Banner.cshtml" />
     <Content Include="Areas\ExampleSite\Views\Widgets\BioCard.cshtml" />
     <Content Include="Areas\ExampleSite\Views\Widgets\CallToAction.cshtml" />
-    <Content Include="App_Data\packages\ExampleSite-MediaLibrary.zip" />
-    <Content Include="App_Data\packages\ExampleSite-System.zip" />
-    <Content Include="App_Data\packages\ExampleSite-Content.zip" />
-    <Content Include="App_Data\packages\ExampleSite-Templates.zip" />
-    <Content Include="App_Data\packages\ExampleSite-Layout.zip" />
+    <Content Include="App_Data\packages\1_ExampleSite-MediaLibrary.zip" />
+    <Content Include="App_Data\packages\3_ExampleSite-System.zip" />
+    <Content Include="App_Data\packages\5_ExampleSite-Content.zip" />
+    <Content Include="App_Data\packages\2_ExampleSite-Templates.zip" />
+    <Content Include="App_Data\packages\4_ExampleSite-Layout.zip" />
     <None Include="packages.config" />
     <Content Include="Web.config" />
     <None Include="Properties\PublishProfiles\Debug.pubxml" />
